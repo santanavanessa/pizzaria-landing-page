@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;500;900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<title>Ciao Pizzaria</title>
+</head>
+<body>
+        <!--Header--> 
+        <header class="header">
+        <div class="navbar">
+            <div class="nav-container flex-nav  container">
+                <div class="nav-header ">
+                    <h2 class="logo">Ciao Pizzaria</h2>
+                    <button class="nav-toggle" id="navToggle">
+                        <i class='bx bx-menu'></i>
+                    </button>
+                </div>
+                <nav class="nav-links mt-1" id="nav-links">
+                    <ul>
+                        <li class="nav-link"><a href="#home">Início</a></li>
+                        <li class="nav-link"><a href="#menu">Cardápio</a></li>
+                        <li class="nav-link"><a href="#contact">Contato</a></li>
+                        <li class="nav-link button"><a href="#order">Pedidos</li>
+                    </ul>
+                </nav>
+            </div>
+          </div>
+    </header>
+    <main>
+        <!--Home--> 
+        <section class="hero-section" id="home">
+       
+             <div class="container row-reverse">
+                <img src="img/home-img.jpg" class="mt-1 hero-img" alt="foto de pizza">
+              <div class="hero-text">
+                <h1 class="mt-2 ">Sabor <span class="text-primary ">artesanal </span>
+                    <br>à sua porta!</h1>
+                <p class="mt-2 ">Delivery de pizzas artesanais, feitas com produtos frescos e de qualidade. </p>
+                  
+     
+                <a href="#menu" class="button mt-2">Nosso cardápio</a>
+              </div>
+            </div>
+        </section>
+
+            <!--About--> 
+     <section class="about-section" id="about">
+       
+        <div class="container row-reverse">
+                <img src="img/about-img-3.jpg" class=" mt-1 hero-img" alt="foto de homem colocando pizza no forno">
+
+         <div>
+           <h1 class="mt-2 ">Sobre <span class="text-primary ">Nós </span></h1>
+        
+           <p class="mt-2 ">Aqui, a tradição encontra a inovação, e nossos mestres pizzaiolos combinam técnicas 
+            clássicas com ingredientes contemporâneos para encontrarem a melhor combinação de sabores. <br>
+            Cada pizza é cuidadosamente montada e assada em forno de pedra, garantindo uma crocância perfeita e um equilíbrio
+             perfeito entre os sabores.</p>
+             <p class="mt-2 mb-2">Desde a massa delicadamente amassada à mão até o molho de tomate preparado com tomates suculentos, cada detalhe é cuidadosamente planejado para levar até você o sabor autêntico e irresistível da pizza artesanal.
+               <br> Nossa massa por um processo de fermentação natural de 24 horas.</p>
+         </div>
+       </div>
+   </section>
+
+        <!--   Menu    -->
+        <section class="menu mx-auto" id="menu">
+            <div class="container">
+                <h2 class="mt-2 mb-2">Nossos <span class="text-primary" >Sabores</span></h2>
+               
+            </div>
+          
+           <div class="menu-content">
+            <div class="row">
+                <img src="img/margherita.jpg" alt="Imagem de pizza sabor margherita">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4>Margherita</h4>
+                    </div>
+                    <div class="menu-right">
+                        <h5>R$55,00</h5>
+                    </div>
+                </div>
+                <p>Molho de tomate, mozzarella, parmesão, mozzarella de búfala, manjericão, orégano.         
+                </p>
+       
+            </div>
+            <div class="row">
+                <img src="img/caprese.jpg" alt="Imagem de pizza sabor caprese">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4>Caprese</h4>
+                    </div>
+                    <div class="menu-right">
+                        <h5>R$65,00</h5>
+                    </div>
+                </div>
+                <p>Molho de tomate, mozzarella, pesto de azeitonas, alho, manjericão.      
+                </p>
+       
+            </div>
+
+               <div class="row">
+                   <img src="img/pomodoro.jpg" alt="Imagem de pizza sabor pomodoro">
+                   <div class="menu-text">
+                       <div class="menu-left">
+                           <h4>Pomodoro</h4>
+                       </div>
+                       <div class="menu-right">
+                           <h5>R$57,00</h5>
+                       </div>
+                   </div>
+                   <p>Molho pomodoro, mozzarella, alho, parmesão.       
+                   </p>
+          
+               </div>
+               <div class="row">
+                   <img src="img/rucula-e-presunto-cru.jpg" alt="Imagem de pizza sabor rúcula e presunto cru">
+                   <div class="menu-text">
+                       <div class="menu-left">
+                           <h4>Rúcula e Presunto Cru</h4>
+                       </div>
+                       <div class="menu-right">
+                           <h5>R$60,00</h5>
+                       </div>
+                   </div>
+                   <p>Molho de tomate, rúcula, presunto cru, mozzarella, alho, parmesão.      
+                   </p>
+               </div>
+               <div class="row">
+                <img src="img/pizza-com-queijo-extra-e-ervas-secas.png" alt="Imagem de pizza sabor queijo e ervas secas">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4>Queijo ervas secas</h4>
+                    </div>
+                    <div class="menu-right">
+                        <h5>R$63,00</h5>
+                    </div>
+                </div>
+                <p>Molho de tomate, mozzarella, alho e ervas secas.         
+                </p>
+          
+            </div>
+            <div class="row">
+                <img src="img/moda-da-casa.jpg" alt="Imagem de pizza sabor à moda da casa">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4>À moda da casa</h4>
+                    </div>
+                    <div class="menu-right">
+                        <h5>R$65,00</h5>
+                    </div>
+                </div>
+                <p>Molho de tomate, fatias de abobrinha, mozzarella, alho, parmesão.        
+                </p>
+          
+            </div>
+               </div>    
+           </div>
+        
+
+        </section>
+    </main>
+
+    <section class="contact-form" id="contact">
+       
+        <div class="container">
+            <div class="contact-title">
+                <h1 class="mt-2">Fale <span class="text-primary ">Conosco </span></h1>
+                <p class="mt-2 mb-2">Entre em contato com a Ciao Pizzaria. Responderemos o mais breve possível.</p>
+                
+              </div>
+         <form action="#" class="mb-2 mt-2">
+            <label for="form-email">Nome e Sobrenome</label>
+            <input type="text" id="nome" class="mt-1 mb-1">
+            <label for="form-email">Telefone</label>
+            <input type="email" id="form-email" class="mt-1 mb-1">
+            <label for="mensagem">Assunto</label>
+            <select name="assunto" required id="assunto" class="mt-1 mb-1">
+                
+                <option value="" disabled selected hidden>Selecione uma opção</option>
+                <option value="criticas">Críticas/Elogio</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="fornecedores">Fornecedores</option>
+                <option value="reservas">Reservas</option>
+                <option value="sugestoes">Sugestões</option>
+                <option value="parcerias">Parcerias</option>
+            </select>
+            <label for="mensagem" class="mb-1 mt-1">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" class="mt-1 mb-1"></textarea>
+
+            <button class="button">Enviar</button>
+         </form>
+       
+       </div>
+   </section>
+
+
+    <!-- Footer-->
+    <footer class="footer">
+       
+        <div class="container">
+          
+            <div class="about-column">
+ 
+                    <h2 class="logo">Ciao Pizzaria</h2>
+       
+                <p class="mb-2">
+                    Fatias de felicidade na sua casa. </p>
+            </div>
+            <nav class=" mx-auto">
+                <a href="#home">Início</a>
+                <a href="#menu">Cardápio</a>
+                <a href="#order">Pedido</a>
+                <a href="#contact">Contato</a>
+                
+            </nav>
+            <form class="newsletter-form mt-2">
+                <label for="email" class="mb-1 mt-1">Receba nossas promoções gratuitamente no seu e-mail</label>
+                <input type="text" name="email" class="mb-1" id="email" placeholder="Digite o seu e-mail">
+                <button class="button mb-2">Quero receber</button>
+            </form>
+        </div>
+        
+        <div class="last-text text-center ">
+            <p>
+            Feito com <i class='bx bxs-heart' ></i> e <i class='bx bxs-coffee-alt' ></i> por
+            <a href="https://www.linkedin.com/in/vanessa-santana-995081258/"
+               target="_blank">Vanessa Santana</a >
+          </p></div>
+    </footer>
+
+   
+
+
+
+    <!--Scroll-->
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+ 
+ <!-- Custom js link-->
+
+ <script type="text/javascript" src="scripts.js">
+ 
+ </script>
+
+</body>
+</html>
